@@ -17,7 +17,7 @@ namespace BrowserSearch
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
 
-            string url = "https://google.com?q=";
+            string url = "https://google.com/search?q=";
             string content = Clipboard.GetText();
 
             if (content != "")
